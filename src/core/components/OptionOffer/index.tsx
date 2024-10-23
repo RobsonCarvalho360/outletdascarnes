@@ -6,13 +6,10 @@ interface IpropsOptionOffer {
 
 const OptionOffer = ({ title, text, link }: IpropsOptionOffer) => {
   return (
-    <a
-      href={link}
-      className="hover:text-orange-400 transition duration-300"
-    >
+    <a href={link} className="hover:text-orange-400 transition duration-300">
       <span className="flex flex-col leading-none">
-        <span className="uppercase tracking-lighter font-bold">{title}</span>
-        <span className="whitespace-pre tracking-tighter text-xs">{text}</span>
+        <strong className="uppercase tracking-tighter">{title}</strong>
+        <span className="whitespace-pre tracking-tighter">{text}</span>
       </span>
     </a>
   );
