@@ -11,6 +11,7 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import gifVemdeZap from "/assets/vem-de-zap.gif";
 import logo from "/assets/logo.png";
 
+
 const Header = () => {
   return (
     <div className="flex flex-col mx-auto bg-white pb-4 sticky top-0 shadow-sm">
